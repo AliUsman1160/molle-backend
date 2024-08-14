@@ -1,0 +1,30 @@
+{
+  "menu": [
+    {
+      "url": "laravel/user-management",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+
+      "name": "User Management",
+     "slug": "laravel-example-user-management"
+    },
+    {
+
+      "name": "Events",
+      "icon": "menu-icon tf-icons mdi mdi-view-grid-outline",
+      "slug": "laravel-example",
+      "submenu": [
+       
+        {
+          "url": "/event-type",
+          "name": "Event Type",
+          "slug": "event-type"
+        },
+        {
+          "url": "/event",
+          "name": "Event",
+          "slug": "event"
+        }
+      ]
+    }
+  ]
+}
